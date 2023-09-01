@@ -1,9 +1,9 @@
 
 import './App.css';
-import Variants from './components/skeleton';
+import Slider from './components/swiper';
 function App() {
   return (<>
-    <Variants></Variants>
+   <Slider></Slider>
     </>
   );
 }
