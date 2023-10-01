@@ -1,11 +1,14 @@
 
 import './App.css';
-import Variants from './components/skeleton';
-// import Slider from './components/swiper';
+import Sichu from './components/Skel_1';
+import Variants from './components/Skel';
+import Slider from './components/swiper';
 function App() {
   return (<>
   {/* <Slider></Slider> */}
-   <Variants></Variants>
+   {/* <Variants></Variants> */}
+   <Sichu></Sichu>
+
     </>
   );
 }
